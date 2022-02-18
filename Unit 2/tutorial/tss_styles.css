@@ -1,11 +1,17 @@
+@charset "utf-8";
+@font-face{
+   font-family: Quicksand;
+   src: url('Quicksand-Regular.woff') format('woff'),
+   url('Quicksand-Regular.ttf') format('ttf');
+
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Tutorial Case
    
    TSS Typographic Style Sheet
-   Author: 
-   Date:   
+   Author:Keagan Bennett
+   Date:2/18/22  
    
    Filename: tss_styles.css
 
@@ -15,14 +21,46 @@
 
 /* HTML and Body Styles */
 
+html{
+   background-color: hsl(27, 72%, 72%);
+
+}
+
+body{
+   color: rgb(91, 91, 91);
+   background-color: ivory;
+   font-family: Verdana, Geneva, Tahoma, Sans-serif;
 
 
+}
+
+h1 {
+   color: white;
+   background-color: rgb(222, 128, 60);
+}
+
+h2{
+   color: white;
+   background-color: rgb(235, 177, 131);
+}
 
 
 /* Heading Styles */
+aside blockquote{
+    color: rgb(232, 165, 116);
+}
+article#about_tss h1{
+   color: white;
+   background-color: rgb(222, 128, 60);
+}
+article#tss_about h2{
+   color: white;
+   background-color: rgb(235,177,131);
+}
 
-
-
+h1, h2{
+   font-family: Quicksand, Verdana, Geneva, snas-serif;
+}
 
 
 
