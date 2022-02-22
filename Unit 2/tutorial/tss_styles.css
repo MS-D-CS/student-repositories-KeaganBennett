@@ -3,7 +3,7 @@
    font-family: Quicksand;
    src: url('Quicksand-Regular.woff') format('woff'),
    url('Quicksand-Regular.ttf') format('ttf');
-
+}
 /*
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
@@ -62,16 +62,41 @@ h1, h2{
    font-family: Quicksand, Verdana, Geneva, snas-serif;
 }
 
+h1{
+   font-size: 2.2em;
+}
+h2{
+   font-size: 1.5em;
+}
+
+
+
+aside{
+   font-size: .8em;
+}
+aside blockquote{
+   color: rgb(232, 165, 116);
+}
 
 
 /* Aside and Blockquote Styles */
 
-
-
+aside{
+   font-size: .8em;
+}
+aside blockquote{
+   color: rgb(232, 165, 116);
+}
 
 
 /* Navigation Styles */	
+nav{
+   font-size: 0.8em;
+}
 
+nav > ul{
+   line-height: 2em;
+}
 
 
 
