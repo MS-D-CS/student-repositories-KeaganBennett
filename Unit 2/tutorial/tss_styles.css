@@ -86,6 +86,7 @@ aside{
 }
 aside blockquote{
    color: rgb(232, 165, 116);
+   margin: 20px 5px;
 }
 
 
@@ -97,8 +98,12 @@ nav{
 nav > ul{
    line-height: 2em; 
    list-style-type: none;
+   padding-left: 5px;
 }
 
+nav > ul > li.newgroup {
+   margin-top: 20px;
+}
 
 
 
@@ -113,6 +118,10 @@ article.syllabus ol ol {
 
 article.syllabus ol ol ol{
    list-style-type: decimal;
+}
+
+article#about_tss ul { 
+   list-style-image: url(runicon.png);
 }
 
 
