@@ -87,6 +87,7 @@ aside{
 aside blockquote{
    color: rgb(232, 165, 116);
    margin: 20px 5px;
+   quotes: "\201c" "\201d";
 }
 
 
@@ -106,6 +107,16 @@ nav > ul > li.newgroup {
 }
 
 
+nav > ul > li > a:link, nav > ul > li > a:visited {
+   color: rgb(151, 151, 151);
+   text-decoration: none;
+}
+
+nav > ul > li > a:hoverk, nav > ul > li > a:active {
+   color: rgb(255, 64, 255);
+   text-decoration: underline;
+}
+
 
 /* List Styles */
 article.syllabus ol {
@@ -120,11 +131,16 @@ article.syllabus ol ol ol{
    list-style-type: decimal;
 }
 
-article#about_tss ul { 
+article#about_tss ul li:first-of-type { 
    list-style-image: url(runicon.png);
 }
+article#about_tss ul li:nth-of-type(2) { 
+   list-style-image: url(bikeicon.png);
+}
 
-
+article#about_tss ul li:last-of-type { 
+   list-style-image: url(swimicon.png);
+}
 
 
 /* Footer Styles */
