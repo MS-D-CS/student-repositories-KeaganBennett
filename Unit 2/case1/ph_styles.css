@@ -4,12 +4,28 @@
    Case Problem 1
    
    PHCT Typographic Style Sheet
-   Author: 
-   Date:   
+   Author: Keagan Bennett
+   Date:  3/4/22
    
    Filename: ph_styles.css
 
 */
+@charset "utf-8";
+
+@font-face { 
+   font-family: Champagne;
+   src: url(cac_champagne.woff) format('woff'),
+   url(cac_champagne.ttf) format('ttf');
+}
+
+@font-face {
+   font
+
+
+
+
+
+
 
 
 /* Structural Styles */
